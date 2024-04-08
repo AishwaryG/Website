@@ -1,0 +1,24 @@
+.shadow {
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  border-radius: 20px;
+}
+.hvr-shadow:hover {
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  border-radius: 20px;
+  transition: 0.3s all ease-in-out;
+  background-image: linear-gradient(
+    to right top,
+    #ec72b7,
+    #e157bb,
+    #d13cc3,
+    #b920cd,
+    #9602db,
+    #7544ee,
+    #4d61f9,
+    #0076ff,
+    #00a0ff,
+    #00c3ff,
+    #00e0fe,
+    #65faf1
+  );
+}
